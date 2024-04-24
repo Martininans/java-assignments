@@ -30,7 +30,6 @@ public class PatternDisplay {
             for (int k = 1; k <= 6 - i; k++) {
                 System.out.print("  ");
             }
-                (6 - i + 1)
             for (int j = 1; j <= 6 - (6 - i); j++) {
                 System.out.print(j + " ");
             }
@@ -59,7 +58,6 @@ public class PatternDisplay {
             for (int k = 1; k < i; k++) {
                 System.out.print("  ");
             }
-                (6 - i + 1) to 1
             for (int j = 6 - (i - 1); j >= 1; j--) {
                 System.out.print(j + " ");
             }
