@@ -1,6 +1,5 @@
 public class SevenSegment {
 
-    // Define patterns for each alphanumeric character and digit from 0 to 9
     private static final String[] SEGMENT_PATTERNS = {
             "1111110",
             "0110000",
