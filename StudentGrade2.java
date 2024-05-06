@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StudentGrade {
+public class StudentGrade2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -55,10 +55,10 @@ public class StudentGrade {
         }
 
         int[] positions = new int[numberOfStudents];
-        for (int i = 0; i < numberOfStudents;  i++) {
+        for (int i = 0; i < numberOfStudents; i++) {
             positions[i] = i + 1;
         }
-        for (int i = 0; i < numberOfStudents - 1;  i++) {
+        for (int i = 0; i < numberOfStudents - 1; i++) {
             for (int j = 0; j < numberOfStudents - i - 1; j++) {
                 if (averages[j] < averages[j + 1]) {
                 
@@ -73,13 +73,13 @@ public class StudentGrade {
             }
         }
 
-        System.out.println("================================================================================");
+        System.out.println("========================================================================");
         System.out.print("STUDENT\t\t\t");
         for (int i = 0; i < numberOfSubjects; i++) {
             System.out.print("SUB" + (i + 1) + "\t");
         }
         System.out.println("Total\tAverage\tPosition");
-        System.out.println("================================================================================");
+        System.out.println("=========================================================================");
 
         for (int i = 0; i < numberOfStudents; i++) {
             System.out.print("Student " + positions[i] + "\t\t");
@@ -90,7 +90,7 @@ public class StudentGrade {
             }
             System.out.printf("%d\t%.2f\t%d%n", total, averages[i], i + 1);
         }
-        System.out.println("================================================================================");
-        System.out.print("=================================================================================");
+        System.out.println("==========================================================================");
+        System.out.print("============================================================================");
     }
 }
